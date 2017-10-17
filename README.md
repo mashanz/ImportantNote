@@ -1,1 +1,16 @@
-# ImportantNote
+# Specification
+1. Processor:
+	- core: 4+
+	- Thread: 8+
+2. Ram: 8+
+3. Display: 14"+
+
+## INTERNAM MEMORY NOT IMPORTANT
+
+## BUT INTERNAL MEMORY AT LEAST 256GB S/D
+
+# List of products
+1. DELL INSPIRON i52277-5328BLK-PUS
+2. ASUS FX502VM-AS73
+3. ASUS X550IU
+4. test
