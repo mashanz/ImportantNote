@@ -22,10 +22,35 @@ http://api.openweathermap.org/data/2.5/weather?q=Bandung&appid=0d4cf99adbefa02ff
 =================================
 
 API Key (v3 auth)
-APP ID = 952d5943b622e56653f77389b4dc1139
+API_KEY = 952d5943b622e56653f77389b4dc1139
 
 API Read Access Token (v4 auth)
 eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5NTJkNTk0M2I2MjJlNTY2NTNmNzczODliNGRjMTEzOSIsInN1YiI6IjVhMTdmYzNiYzNhMzY4MGI5YTAxMjc3MiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.BLNSI-R2JyiHCUq1po2NmF6o231DAl4oGhg9fnU3-9c
 
 Example API Request
 https://api.themoviedb.org/3/movie/550?api_key=952d5943b622e56653f77389b4dc1139
+
+=================================
+    api.themoviedb.org FEATURES
+=================================
+
+request detail moview
+https://api.themoviedb.org/3/movie/<MOVIE_ID>?api_key=<API_KEY>
+
+request search movie rule dicoding.com
+https://api.themoviedb.org/3/search/movie?api_key=<API_KEY>&language=en-US&query=<QUERY_SEARCH>
+
+request genre list movie
+https://api.themoviedb.org/3/genre/movie/list?language=en-US&api_key=<API_KEY>
+
+request upcomming
+https://api.themoviedb.org/3/movie/upcoming?api_key=<API_KEY>&language=en-US&page=1
+
+request now playing
+https://api.themoviedb.org/3/movie/now_playing?api_key=<API_KEY>&language=en-US&page=1
+
+request search
+https://api.themoviedb.org/3/search/movie?api_key=<API_KEY>&language=en-US&page=1&include_adult=false
+
+request poster
+http://image.tmdb.org/t/p/<POSTER_SIZE>/<POSTER_PATH>
